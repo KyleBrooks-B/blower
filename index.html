@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- import important lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <script src="./lib/matter.min.js"></script>
+
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAe1laXS-Nu7gS_KPXFSx18z4o43QKYcqA",
+      authDomain: "project-729f4.firebaseapp.com",
+      databaseURL: "https://project-729f4-default-rtdb.firebaseio.com",
+      projectId: "project-729f4",
+      storageBucket: "project-729f4.appspot.com",
+      messagingSenderId: "291896091071",
+      appId: "1:291896091071:web:5feabd77b30e637656c10a"
+    };
+    firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./js/Blower.js"></script>
+    <script src="./js/BlowerMouth.js"></script>
+
+    <script src="./js/Ball.js"></script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
